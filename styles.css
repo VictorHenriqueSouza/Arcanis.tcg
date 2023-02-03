@@ -1,0 +1,235 @@
+
+body{
+	font-family: 'Inter', sans-serif;
+	background: linear-gradient(white, whitesmoke);
+}
+
+nav{
+	display: flex;	
+	
+
+}
+nav img{
+	width: 20%;
+	margin-right: 20%;
+	margin-left: 5%;
+}
+
+nav a{
+	margin-right: 20%;
+	margin-top: 14%;
+	margin-right: 15%;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	color: #87CEEB;
+	text-decoration: underline;
+}
+
+/*separação*/
+
+.separacao{
+	text-align: center;
+	color: #87CEEB;
+	font-size: 3em;
+
+}
+
+/*conheça a arcanix*/
+
+.conheca__arcanix{
+	text-align: center;
+	margin: 3% 10%;
+	padding: 5%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px #87CEEB;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.conheca__arcanix h1{
+	font-size: 2em;
+	padding: 1em;
+}
+
+.conheca__arcanix p{
+	padding: 1em ;
+}
+
+.conheca__arcanix img{
+	text-align: center;
+	width: 20%;
+
+}
+
+.conheca__arcanix:hover{
+	border: 1px solid black;
+	box-shadow: 20px 20px 20px #87CEEB;
+}
+
+/*produto*/
+
+.produto__card h2{
+	text-align: center;
+	margin: 1em;
+	font-size: 3em;
+	
+}
+
+
+.fotocarta {
+	width: 40%;
+	box-shadow: 20px 20px 20px black;
+}
+
+
+
+
+
+
+.produtosmagic {
+	display: grid;
+	grid-template-areas: 
+	"fotocarta nomejogo"
+	"fotocarta textojogo"
+	"fotocarta vejaestoque";
+	text-align: center;
+	margin: 5%;
+	border: 1px solid black;
+	padding: 6%;
+	box-shadow:20px 20px 20px #87CEEB;
+	border-radius: 10px 20px 140px 30px; 	
+
+}
+
+.produtosmagic:hover{
+box-shadow:30px 30px 30px #87CEEB;
+border: 2px solid black;
+
+}
+
+.fotocarta{
+	grid-area: fotocarta;
+
+
+}
+
+.nomejogo{
+	margin: 2%;
+	font-size: 2em;
+	grid-area: nomejogo;
+}
+
+.textojogo{
+	grid-area: textojogo;
+	font-size: 20px;
+}
+
+.vejaestoque{
+	font-size: 2em;
+	text-align: center;
+	grid-area: vejaestoque;
+	background-color: black;
+	color: white;
+	padding: 4%;
+	margin: 6%;
+	border-radius: 10px 20px 140px 30px;
+
+}
+
+.vejaestoque:hover{
+	border: 1px solid black;
+	background-color: #87CEEB;
+	color: black;
+}
+
+/*produtosfab */
+
+.fotocarta1{
+	width: 30%;
+	margin-left: 40%;
+	box-shadow: 10px 10px 20px 
+}
+.fab{
+	display: grid;
+	grid-template-areas:
+	"nomejogo1 fotocarta1"
+	"textojogo1 fotocarta1"
+	"vejaestoque1 fotocarta1";
+	text-align: center;
+	margin: 5%;
+	border: 1px solid black;
+	padding: 5%;
+	box-shadow:20px 20px 20px #87CEEB;
+	border-radius: 10px 20px 30px 140px; 	
+
+
+
+}
+
+.nomedojogo1{
+	grid-area: nomejogo1;
+	margin: 2%;
+	font-size: 2em;
+}
+
+.textojogo1{
+	grid-area: textojogo1;
+	font-size: 20px;
+}
+
+.vejaestoque1{
+	grid-area: vejaestoque1;
+	background-color: black;
+	color: white;
+	font-size: 2em;
+	padding: 4%; 
+	margin: 6%;
+	border-radius: 10px 20px 30px 140px;
+
+
+}
+
+.fotocarta1{
+	grid-area: fotocarta1;
+
+
+}
+
+.fab:hover{
+	border: 2px solid black;
+	box-shadow:30px 30px 30px #87CEEB;
+
+
+}
+
+.vejaestoque1:hover{
+	border: 1px solid black;
+	background-color: #87CEEB;
+	color: black;
+	border-radius: 10px 20px 30px 140px;
+}
+
+	/* footer */
+
+footer{
+	text-align: center;
+}
+
+footer img{
+	width: 10%;
+	display:inline-block;
+
+
+}
+
+footer a{
+	font-size: 14px;
+	display: inline-block;
+}
+
+footer p {
+	font-size: 10px;
+}
